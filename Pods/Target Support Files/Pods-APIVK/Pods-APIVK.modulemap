@@ -1,0 +1,6 @@
+framework module Pods_APIVK {
+  umbrella header "Pods-APIVK-umbrella.h"
+
+  export *
+  module * { export * }
+}
