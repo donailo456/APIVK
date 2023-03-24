@@ -83,4 +83,3 @@ extension ViewController: WKNavigationDelegate {
         decisionHandler(.cancel)
     }
 }
-

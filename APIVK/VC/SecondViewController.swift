@@ -8,7 +8,6 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-    
     var friendsButton: UIButton = {
        var button = UIButton(frame: CGRect(x: 0, y: 0, width: 150, height: 50))
         button.setTitle("Friends", for: .normal)
@@ -32,7 +31,6 @@ class SecondViewController: UIViewController {
         createButton()
         
     }
-    
     func createButton() {
         friendsButton.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(friendsButton)
